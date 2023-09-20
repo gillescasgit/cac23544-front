@@ -1,0 +1,57 @@
+/*
+selectores
+etiqueta|clase|id|*|root
+
+style > id > clase > etiqueta 
+!important
+*/
+
+/*selector descendiente*/
+div p {
+    color:green;
+}
+
+p > strong{
+    color: blue;
+}
+/*selector adyacente */
+h1 + p{
+    color: green;
+}
+
+/*selector adyacente ~ alt+126*/
+h2 ~ p{
+    color: red;
+}
+
+a{
+    color: black;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+/*selector de atributo*/
+
+a[title='google']{
+    color: aqua;
+}
+/**= que contenga*/
+a[href*='face']{
+    color: pink;
+}
+/**= que comience con alt+94^*/
+a[href^='http']{
+    color: yellow;
+}
+/**= que termine con alt+94^*/
+a[href$='ar']{
+    color: blueviolet;
+}
+a[atrx='bla']{
+    color:brown;
+}
+
+.linkPersonal{
+    color: orange;
+}

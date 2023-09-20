@@ -1,0 +1,26 @@
+@import url(cvvars.css);
+
+.personal {
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 80%;
+    margin: var(--margin);
+}
+
+.experiencia {
+    background-color: var(--secondary-color);
+    border-bottom-right-radius: 30%;
+    margin: var(--margin);
+
+}
+p[title='formacion']  {
+    background-color: var(--primary-color);
+    border-radius: 60%;
+    margin: var(--margin);
+
+}
+
+.link {
+    height: 8vh;
+    width: 15vw;
+    font-family: Arial, Helvetica, sans-serif;
+}

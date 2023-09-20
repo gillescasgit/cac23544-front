@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+.divContainer {
+    background: #1A6FA1;
+    /* color:white; */
+    font-size: 20px;
+    /*margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    */
+    /*margin: 5px 5px 5px 5px ;*/
+    margin: 5px;
+}
+
+.divItem {
+    text-align: center;
+    width: 100px;
+    background:#EDEA4A;
+    padding: 5px;
+    /* border: 1px solid red; */
+    border-style:solid ;
+    border-width: 1px;
+    border-color: red; 
+    box-sizing: border-box;/*border-box*/
+    margin-top: 2px;
+    /*border-box= width - padding - border*/
+}
+
+.caja1 {
+    background: green;
+}
+
+.caja2 {
+    background: burlywood;
+}
+
+.caja3 {
+    background: burlywood;
+}
+
+.textos p:first-child{
+color: #1A6FA1 !important; /*mata colision*/
+}
+
+.textos p:last-child{
+    color:aqua;
+}
+/*
+.textos p:nth-child(3){
+   color:yellow; 
+}
+.textos p:nth-child(2n +1){
+   color:yellow; 
+}
+*/
+
+/*pintamos pares*/
+.textos p:nth-child(even){
+    color:red; 
+ }
+
+/*pintamos impares*/
+.textos p:nth-child(odd){
+    color:blue ; 
+ }
+
+
+ a:link{
+    color: black;
+ }
+
+ a:active {
+    color:orange;
+
+ }
+ a:visited{
+    color:yellow;
+ }
+
+ a:hover{
+    font-size: 1.em;
+    color: lightblue;
+ }
+
+ img:hover{
+    border-radius:50%;
+ }
+ .parrafo:first-letter{
+    font-size: 2em;
+ }
+ .parrafo:after{
+    content: "/*";
+ } 
+ .parrafo:before{
+    content: "*/";
+ }
+
+ .parrafo::first-line{
+    font-size: 3em;
+ }
